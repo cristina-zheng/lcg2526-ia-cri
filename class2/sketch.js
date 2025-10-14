@@ -9,9 +9,9 @@ let star_img;
 let rocket_img;
 
 function preload() { //funzione eseguita all'inizio che carica tutti i dati
-  table = loadTable("star.csv", "csv", "header");
+  table = loadTable("stars.csv", "csv", "header");
   star_img = loadImage("star.png");
-  rocket_img = loadImage("shuttle.png");
+  rocket_img = loadImage("superman.png");
 }
 
 function setup() { //invocata ogni volta che refresh la pagina
@@ -50,7 +50,7 @@ function drawStarsFromFile() {
 }*/
 
 function drawRocketFromFile(xRocket, yRocket) {
-  image(rocket_img, xRocket, yRocket, 50, 50);
+  image(rocket_img, xRocket, yRocket, 100, 80);
 }
 
 /*function drawRocket(xRocket, yRocket) {
