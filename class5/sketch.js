@@ -103,3 +103,11 @@ function draw() {
   yRocket = moveRocket(yRocket); 
   tempo += 1;
 }
+
+function mousePressed(){
+  if(isLooping()){
+    noLoop();
+  }else{
+    loop();
+  }
+}
