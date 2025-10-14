@@ -12,4 +12,6 @@ Il parametro non ha effetti fuori dalla funzione.
 Quando il parametro in ingresso è un oggetto/array, sto passando il riferimento, ovvero è visibile anche all'esterno.
 
 -----> scale()
-posso mettere direttamente il valore di scalatura
+posso mettere direttamente il valore di scalatura.
+
+gli oggetti possono essere costruiti con {}.
