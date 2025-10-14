@@ -1,0 +1,15 @@
+le funzioni sono blocchi riusabili
+posso prenderlo e replicarlo:
+
+function (<lista parametri>) {body}
+
+function nomeFunzione(parametri) {
+    return parametri
+}
+
+quando ho un parametro in ingresso, questo ha un nome astratto.
+Il parametro non ha effetti fuori dalla funzione.
+Quando il parametro in ingresso è un oggetto/array, sto passando il riferimento, ovvero è visibile anche all'esterno.
+
+-----> scale()
+posso mettere direttamente il valore di scalatura

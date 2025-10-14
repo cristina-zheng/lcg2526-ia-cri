@@ -8,7 +8,8 @@ let table;
 let star_img;
 let rocket_img;
 
-function preload() { //funzione eseguita all'inizio che carica tutti i dati
+//caricare asset prima che la pagina web venga caricata
+function preload() {
   table = loadTable("stars.csv", "csv", "header");
   star_img = loadImage("star.png");
   rocket_img = loadImage("superman.png");
